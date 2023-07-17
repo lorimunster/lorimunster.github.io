@@ -63,11 +63,37 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px rgb(0, 0, 0) ridge;
-    padding: 8px;
+    border: 4px rgb(255, 255, 255) ridge;
+    padding: 20px;
 }
 
 h2,
 h3 {
-    margin: 0px;
+    margin: 4px;
+    
+}
+/* portfolio styles */
+.content h1 {
+    color: rgba(198, 74, 138, 0.992);
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #faf559;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #eee;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #000000;
 }
